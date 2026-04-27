@@ -25,7 +25,7 @@ Open the PoC-1 notebook in Google Colab.
 
 ---
 
-### Step 2: Run Cell 1 – Setup
+### Step 2: Run Setup.py
 
 This cell performs:
 
@@ -44,7 +44,7 @@ After execution, folders will be created:
 
 ---
 
-### Step 1: Run Cell 2 – Pipeline
+### Step 1: Run  Pipeline.py
 
 * Creates `pipeline.py`
 * Defines `run_pipeline()`
@@ -57,7 +57,7 @@ After execution, folders will be created:
 
 ---
 
-### Step 2: Run Cell 3 – Install UI Dependencies
+### Step 2: Run Install UI Dependencies.py
 
 Installs:
 
@@ -67,7 +67,7 @@ Installs:
 
 ---
 
-### Step 3: Run Cell 4 – Dashboard Setup
+### Step 3: Run Dashboard Setup.py
 
 * Creates `dashboard.py`
 * Builds Streamlit UI
@@ -75,7 +75,7 @@ Installs:
 
 ---
 
-### Step 4: Run Cell 5 – Launch Dashboard
+### Step 4: Run Launch Dashboard.py
 
 This step:
 
@@ -137,7 +137,7 @@ Each run contains:
 
 ## 8. Important Notes
 
-* Always run cells in order (1 → 5)
+* Always run cells in order (Setup → Launch Dashboard.py)
 * Do not skip any step
 * Use GPU runtime for better performance
 * Large videos take more time
@@ -146,7 +146,7 @@ Each run contains:
 
 ## 9. Troubleshooting
 
-* If URL not generated → rerun Cell 5
+* If URL not generated → rerun Launch Dashboard.py
 * If Streamlit fails → restart runtime
 * If no output → ensure pipeline ran correctly
 
